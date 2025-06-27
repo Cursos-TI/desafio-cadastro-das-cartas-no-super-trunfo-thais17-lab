@@ -78,10 +78,10 @@ int main() {
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
     // Exibindo os dados da primeira carta
-    printf("\n\nCarta 1:\nEstado: %c\nCódigo: %s \nNome da cidade: %s\nPopulação: %d\nÁrea: %f km²\nPIB: %f\nNúmero de Pontos Turísticos: %d", estado_1, cod_carta_1, cidade_1, populacao_1, area_1, pib_1, num_pontos_t_1);
+    printf("\n\nCarta 1:\nEstado: %c\nCódigo: %s \nNome da cidade: %s\nPopulação: %d\nÁrea: %f km²\nPIB: %f\nNúmero de Pontos Turísticos: %d\nDensidade Populacional: %.2f hab/km²\nPIB per Capita: %.2f reais", estado_1, cod_carta_1, cidade_1, populacao_1, area_1, pib_1, num_pontos_t_1, populacao_1 / area_1, pib_1 / populacao_1);
 
     // Exibindo os dados da segunda carta
-    printf("\n\nCarta 2:\nEstado: %c\nCódigo: %s \nNome da cidade: %s\nPopulação: %d\nÁrea: %f km²\nPIB: %f\nNúmero de Pontos Turísticos: %d\n\n", estado_2, cod_carta_2, cidade_2, populacao_2, area_2, pib_2, num_pontos_t_2);
+    printf("\n\nCarta 2:\nEstado: %c\nCódigo: %s \nNome da cidade: %s\nPopulação: %d\nÁrea: %f km²\nPIB: %f\nNúmero de Pontos Turísticos: %d\nDensidade Populacional: %.2f hab/km²\nPIB per Capita: %.2f reais\n\n", estado_2, cod_carta_2, cidade_2, populacao_2, area_2, pib_2, num_pontos_t_2, populacao_2 / area_2, pib_2 / populacao_2);
    
     return 0;
 }
